@@ -1,5 +1,5 @@
-import { Button } from "@repo/ui/button";
+import { Button } from "@repo/ui/components/ui/button";
 
 export default function Home() {
-  return <Button appName="web">Click ME</Button>;
+  return <Button variant="destructive">Click Me</Button>;
 }
